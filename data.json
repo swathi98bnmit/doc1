@@ -1,0 +1,129 @@
+{
+    "config": {
+      "url": "https://www.googleapis.com/drive/v3/files/1U6wgk1NVzL12Gbl_T2UnT9BkzFILDCuZ97VHllnaFPE/comments?fields=%2A",
+      "method": "GET",
+      "userAgentDirectives": [
+        {
+          "product": "google-api-nodejs-client",
+          "version": "5.0.1",
+          "comment": "gzip"
+        }
+      ],
+      "headers": {
+        "x-goog-api-client": "gdcl/5.0.1 gl-node/10.16.0 auth/7.0.2",
+        "Accept-Encoding": "gzip",
+        "User-Agent": "google-api-nodejs-client/5.0.1 (gzip)",
+        "Authorization": "Bearer ya29.a0AfH6SMCq-NtBLUrL2-GHKYGpUVGmGvM481tqs23znW_nqxNWLtGnfPrU0GqS2dzIVB4IVm_z-JsK9KlJ8ZcZdVYWPqx1zdTvMO4igCX-MZH6kyeLnpV1PRPlxDaeu_Ws2Qn2rnaYPFUhushgWtwxoee7tx6o",
+        "Accept": "application/json"
+      },
+      "params": {
+        "fields": "*"
+      },
+      "retry": true,
+      "responseType": "json"
+    },
+    "data": {
+      "kind": "drive#commentList",
+      "comments": [
+        {
+          "kind": "drive#comment",
+          "id": "AAAAL5FO4z8",
+          "createdTime": "2021-03-29T18:21:11.762Z",
+          "modifiedTime": "2021-03-29T21:50:51.458Z",
+          "author": {
+            "kind": "drive#user",
+            "displayName": "Suraksha Tasgaonkar",
+            "photoLink": "//lh6.googleusercontent.com/-hQC19KNV2gM/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmmt68r1RAgHhdbySKmfQ3Di-PzqA/s50-c-k-no/photo.jpg",
+            "me": true
+          },
+          "htmlContent": "This the address",
+          "content": "This the address",
+          "deleted": false,
+          "resolved": false,
+          "quotedFileContent": {
+            "mimeType": "text/html",
+            "value": "Hello\u000bI’m Your Name\n123 YOUR STREET\nYOUR CITY, ST 12345\n(123) 456-7890\nNO_REPLY@EXAMPLE.COM"
+          },
+          "anchor": "kix.m452hd1qa2g5",
+          "replies": [
+            {
+              "kind": "drive#reply",
+              "id": "AAAALvqbtok",
+              "createdTime": "2021-03-29T21:50:51.458Z",
+              "modifiedTime": "2021-03-29T21:50:51.458Z",
+              "author": {
+                "kind": "drive#user",
+                "displayName": "Suraksha Tasgaonkar",
+                "photoLink": "//lh6.googleusercontent.com/-hQC19KNV2gM/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmmt68r1RAgHhdbySKmfQ3Di-PzqA/s50-c-k-no/photo.jpg",
+                "me": true
+              },
+              "htmlContent": "okay",
+              "content": "okay",
+              "deleted": false
+            }
+          ]
+        },
+        {
+          "kind": "drive#comment",
+          "id": "AAAAL48VxZQ",
+          "createdTime": "2021-03-29T12:44:17.672Z",
+          "modifiedTime": "2021-03-29T18:20:28.517Z",
+          "author": {
+            "kind": "drive#user",
+            "displayName": "Suraksha Tasgaonkar",
+            "photoLink": "//lh6.googleusercontent.com/-hQC19KNV2gM/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmmt68r1RAgHhdbySKmfQ3Di-PzqA/s50-c-k-no/photo.jpg",
+            "me": true
+          },
+          "htmlContent": "krk",
+          "content": "krk",
+          "deleted": false,
+          "resolved": true,
+          "quotedFileContent": {
+            "mimeType": "text/html",
+            "value": "I’m Your Name\n123 YOUR STREET\nYOUR CITY, ST 12345\n(123) 456-7890\nNO_REPLY@EXAMPLE.COM\nSkills"
+          },
+          "anchor": "kix.qvfezpw299fl",
+          "replies": [
+            {
+              "kind": "drive#reply",
+              "id": "AAAAL5FO4z4",
+              "createdTime": "2021-03-29T18:20:28.517Z",
+              "modifiedTime": "2021-03-29T18:20:28.517Z",
+              "author": {
+                "kind": "drive#user",
+                "displayName": "Suraksha Tasgaonkar",
+                "photoLink": "//lh6.googleusercontent.com/-hQC19KNV2gM/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmmt68r1RAgHhdbySKmfQ3Di-PzqA/s50-c-k-no/photo.jpg",
+                "me": true
+              },
+              "htmlContent": "",
+              "content": "",
+              "deleted": false,
+              "action": "resolve"
+            }
+          ]
+        }
+      ]
+    },
+    "headers": {
+      "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "connection": "close",
+      "content-encoding": "gzip",
+      "content-security-policy": "frame-ancestors 'self'",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sat, 10 Apr 2021 01:18:37 GMT",
+      "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+      "pragma": "no-cache",
+      "server": "GSE",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "1; mode=block"
+    },
+    "status": 200,
+    "statusText": "OK",
+    "request": {
+      "responseURL": "https://www.googleapis.com/drive/v3/files/1U6wgk1NVzL12Gbl_T2UnT9BkzFILDCuZ97VHllnaFPE/comments?fields=%2A"
+    }
+  }
